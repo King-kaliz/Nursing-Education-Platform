@@ -4,9 +4,9 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const userRoutes = require('./backend/Routes/users');
-const courseRoutes = require('./backend/Routes/courses');
-const paymentRoutes = require('./backend/Routes/payments');
+const userRoutes = require('./Routes/users');
+const courseRoutes = require('./Routes/courses');
+const paymentRoutes = require('./Routes/payments');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
